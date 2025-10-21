@@ -14,6 +14,7 @@ nav {
 }
 
 nav ul {
+
     width: 100%;
     list-style: none;
     display: flex;
@@ -22,12 +23,14 @@ nav ul {
 }
 
 nav li {
+    
     height: 50px;
 }
 
 nav a {
+    font-size: 14px;
     height: 100%;
-    padding: 0 20px;
+    padding: 0 25px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -46,3 +49,32 @@ nav li:first-child {
     font-weight: 400;
     font-style: normal;
 }
+
+/* grid container for portfolio page */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px; /* rows 200px tall */ 
+    /*gap: 40px;*/
+    column-gap: 10px;
+    row-gap: 50px;
+    place-items: center; /* centers items both horizontally and vertically */
+  }
+
+.index-text-container {
+    font-size: 30px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 86dvh;
+}
+
+footer {
+    font-size: 12px;
+    position: absolute;
+    
+    /*vertical-align: bottom;
+    text-align: left; */
+    padding: 20px
+}
+
