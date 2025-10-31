@@ -10,11 +10,9 @@ body {
 
 nav {
     background-color: #FFFFFF;
-    /*box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);*/
 }
 
 nav ul {
-
     width: 100%;
     list-style: none;
     display: flex;
@@ -93,17 +91,10 @@ footer {
     width: 50%;
 }
 
-/*ul {
-    font-size: 14px;
-    list-style-type: disc;
-    display: list-item;
-    padding: 15 15 15 15;
-} */
-
 .contact-list {
     list-style-type: disc; 
     font-size: 14px;
     position: relative;
-    top: -230px;
+    top: -210px;
     left: 30px;
 }
