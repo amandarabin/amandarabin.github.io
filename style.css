@@ -55,11 +55,14 @@ nav li:first-child {
     /*gap: 40px;*/
     place-items: center; /* centers items both horizontally and vertically */
     column-gap: 10px;
-    row-gap: 300px;
+    row-gap: 275px;
     font-size: 12px;
     padding-top: 50px;
     padding-bottom: 160px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+
 
 /* container for text on index page */
 .index-text-container {
@@ -98,3 +101,8 @@ footer {
     top: -210px;
     left: 30px;
 }
+
+
+
+
+
